@@ -1,0 +1,50 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi03.Models
+@model ThongTin
+@{
+    ViewBag.Title = "HienThi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<p><strong>Họ và tên:</strong> <span style="color:red">@Model.HoTen</span></p>
+<p><strong>Mã số sinh viên:</strong> <span style="color:red">@Model.MaSV</span></p>
+<p><strong>Email:</strong> <span style="color:red">@Model.Email</span></p>
+
+<p><strong>Hình:</strong>
+<img src="~/Content/HinhAnh/@Model.Hinh" />
+</p>
+
+<p><strong>Ghi chú:</strong> <span style="color:red">@Model.Note</span></p>
+
+<p>
+    <strong>We are known by:</strong> <span style="color:red">
+        @{
+            var knownBy = new List<string>();
+            if (Model.Check1) { knownBy.Add("Television"); }
+            if (Model.Check2) { knownBy.Add("Website"); }
+            if (Model.Check3) { knownBy.Add("NewsPaper"); }
+            @Html.Raw(string.Join(", ", knownBy))
+        }
+    </span>
+</p>
+
+<p><strong>Chọn giờ học</strong> <span style="color:red">@Model.ChonGioHoc</span></p>
+
+<p>
+    <strong>Select an Course:</strong> <span style="color:red">
+        @{
+            string courseName = "";
+            switch (Model.SelectCourse)
+            {
+                case 1: courseName = "Html CSS Boottrap"; break;
+                case 2: courseName = "ASP.Net MVC"; break;
+                case 3: courseName = "PHP & MySQL"; break;
+            }
+            @courseName
+        }
+    </span>
+</p>
+
+<br />
+<p><strong>If your information is incorect. Please go back <a href="/Bai4/Bai4">INDEX PAGE</a>;</strong></p>
+

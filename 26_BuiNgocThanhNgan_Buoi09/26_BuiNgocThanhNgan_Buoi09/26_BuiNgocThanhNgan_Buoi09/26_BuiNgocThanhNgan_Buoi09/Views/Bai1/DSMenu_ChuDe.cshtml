@@ -1,0 +1,15 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi09.Models;
+@model List<ChuDe>
+
+
+<ul class="nav flex-column">
+@foreach (var cd in @Model)
+{
+    <li class="nav-item" style="border-bottom:1px solid #ddd">
+       <a class="nav-link" href="/Bai1/HTSachTheoChuDe/?mcd=@cd.MaChuDe">
+           @cd.TenChuDe
+       </a>
+    </li>
+}
+</ul>
+

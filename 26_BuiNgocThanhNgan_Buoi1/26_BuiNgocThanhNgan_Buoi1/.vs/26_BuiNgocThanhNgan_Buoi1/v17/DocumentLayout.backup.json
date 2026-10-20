@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|d:\\bt_laptrinhweb\\26_buingocthanhngan_buoi1\\26_buingocthanhngan_buoi1\\bai2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|solutionrelative:bai2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|d:\\bt_laptrinhweb\\26_buingocthanhngan_buoi1\\26_buingocthanhngan_buoi1\\bai2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|solutionrelative:bai2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|d:\\bt_laptrinhweb\\26_buingocthanhngan_buoi1\\26_buingocthanhngan_buoi1\\bai2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97D83EB4-AD40-4076-B763-75A432D5C308}|Bai2\\26_BuiNgocThanhNgan_Bai2.csproj|solutionrelative:bai2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Bai2\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Bai2\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T09:02:08.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Bai2\\Views\\Web.config",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Views\\Web.config",
+              "RelativeToolTip": "Bai2\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-08-18T09:02:02.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Bai2\\Global.asax.cs",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi1\\26_BuiNgocThanhNgan_Buoi1\\Bai2\\Global.asax.cs",
+              "RelativeToolTip": "Bai2\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T09:01:55.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

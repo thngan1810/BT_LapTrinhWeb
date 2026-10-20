@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|d:\\bt_laptrinhweb\\2001240289_buingocthanhngan_btvn_b1\\buingocthanhngan_2001240289_btvn\\buingocthanhngan_2001240289_btvn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|solutionrelative:buingocthanhngan_2001240289_btvn\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|d:\\bt_laptrinhweb\\2001240289_buingocthanhngan_btvn_b1\\buingocthanhngan_2001240289_btvn\\buingocthanhngan_2001240289_btvn\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|solutionrelative:buingocthanhngan_2001240289_btvn\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|d:\\bt_laptrinhweb\\2001240289_buingocthanhngan_btvn_b1\\buingocthanhngan_2001240289_btvn\\buingocthanhngan_2001240289_btvn\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|solutionrelative:buingocthanhngan_2001240289_btvn\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|d:\\bt_laptrinhweb\\2001240289_buingocthanhngan_btvn_b1\\buingocthanhngan_2001240289_btvn\\buingocthanhngan_2001240289_btvn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0BF4BA8-1443-4226-8042-50EA02DF932B}|BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN.csproj|solutionrelative:buingocthanhngan_2001240289_btvn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T09:05:08.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T09:05:06.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "BuiNgocThanhNgan_2001240289_BTVN\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-18T09:05:05.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BuiNgocThanhNgan_2001240289_BTVN\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\2001240289_BuiNgocThanhNgan_BTVN_B1\\BuiNgocThanhNgan_2001240289_BTVN\\BuiNgocThanhNgan_2001240289_BTVN\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BuiNgocThanhNgan_2001240289_BTVN\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T09:04:49.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

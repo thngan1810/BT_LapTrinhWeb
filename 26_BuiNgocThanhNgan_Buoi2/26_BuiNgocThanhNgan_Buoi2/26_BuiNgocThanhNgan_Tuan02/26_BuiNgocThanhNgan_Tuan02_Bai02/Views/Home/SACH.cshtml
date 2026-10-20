@@ -1,0 +1,28 @@
+﻿@using _26_BuiNgocThanhNgan_Tuan02_Bai02.Models;
+@model List<Sach>
+@{
+    ViewBag.Title = "SACH";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>SACH</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (Sach s in Model)
+        {
+            <div class="col-3 mb-3 text-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top " style="height:150px" src="~/Content/hinhanh/@s.AnhBia" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="@Url.Action("ChonMua", "Home", new { ms = s.Masach })">@s.Tensach </a></h5>
+                        <p class=" card-text text-danger">@s.Gia VNĐ</p>
+                        <a href="@Url.Action("ChonMua", "Home", new { ms = s.Masach })" class="btn btn-danger text-white fw-bold" >CHỌN MUA</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+

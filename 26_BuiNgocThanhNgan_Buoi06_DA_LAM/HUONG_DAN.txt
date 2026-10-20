@@ -1,0 +1,14 @@
+HUONG DAN CHAY
+
+1. Mo file 26_BuiNgocThanhNgan_Buoi06.csproj bang Visual Studio 2022.
+2. Neu Visual Studio bao thieu NuGet package: chuot phai Solution > Restore NuGet Packages.
+3. Mo SQL Server va chay file CSDL_QLTour.sql de tao database TourDuLich_N2_CNW_09DHTH.
+4. Kiem tra Data Source trong Models/SanPham.cs (hien dang la A103PC26\CSSQL22, User ID=sa, Password=123). Neu may khac, sua chuoi ket noi.
+5. Chay project (Ctrl+F5/F5). Route mac dinh vao Bai1/Index.
+
+CAC PHAN DA LAM
+- Bai 1: layout chung, chuyen trang, ViewBag ma so + ho ten + so thich.
+- Bai 2: Model DanhMuc/Tour/DichVuKemTour/Dulieu; load CSDL; menu danh muc; loc theo danh muc; tim kiem theo ten tour.
+- Bai 3: chi tiet tour, anh dai dien + danh sach anh, dia diem tham quan dang ul, dich vu kem theo.
+
+Luu y: CSDL de bai khong co cot ThoiGianLuuTru, nen Model co thuoc tinh nay nhung khong tu tao du lieu.

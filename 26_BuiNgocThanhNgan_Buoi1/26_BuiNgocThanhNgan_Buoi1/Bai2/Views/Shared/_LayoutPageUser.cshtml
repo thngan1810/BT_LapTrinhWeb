@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container p-2">
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="~/Content/hinhanh/logodienhoa.jpg" class="img w-75"  />
+            </div>
+            <div class="col-4 p-2 " >
+                <p><b>Hà Nội: </b><br />
+                Điện thoại: 024.73007.008 - 093.4647.172 <br />
+                Địa chỉ: Số 63/445 Lạc Long Quân, Tây Hồ, Hà Nội <br />
+                Email: hn@dienhoa24gio.com</p>
+            </div>
+            <div class="col-4">
+                <p>
+                    <b>TP. Hồ Chí Minh: </b><br />
+                    Điện thoại: 028.73007.008 - 094.7723.444 <br />
+                    Địa chỉ: 189 XVN Tĩnh, P. 17, Q. Bình Thạnh <br />
+                    Email: hcm@dienhoa24gio.com
+                </p>
+            </div>
+        </div>
+        <div class="row bg-success p-2">
+            <div class="col-1">
+                <img src="~/Content/hinhanh/home.jpg" class="img" style="width:80px;height:50px" /> 
+            </div>
+            <div class="col-7">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/Product/Index">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Product/DangKy">Đăng ký</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đăng Nhập</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" >Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <form class="row g-3">
+                    <div class="col-auto">
+                        <input type="text" class="form-control"placeholder="Search">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-outline-secondary mb-3">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-9">
+                @RenderBody()
+            </div>
+            <div class="col-3 ">
+                <ul class="nav flex-column">
+                    <li class="nav-item fw-bold bg-success text-white p-2"  >
+                        HOA THEO CHỦ ĐỀ
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOA SINH NHẬT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOA KHAI TRƯƠNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LAN HỒ ĐIỆP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOA CƯỚI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOA LAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOA CHIA BUỒN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUÀ TẶNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">TRÁI CÂY</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item fw-bold bg-success text-white p-2">
+                        CHỌN THEO GIÁ
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">250.000đ trở xuống</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">250.000đ - 400.000đ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">400.000đ - 600.000đ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">600.000đ - 900.000đ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trên 1.000.000đ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-2 bg-success" >
+            <div class="col-12 text-center text-white " >
+                <p>
+                    Liên hệ: Khoa Công nghệ Thông tin - Trường Đại học Công nghiệp Thực phẩm Tp.HCM Link: fanpage và link youtube <br />
+                    Địa chỉ: 140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, Tp.HCM. ĐT: (028).38161673 (ext 136) Mail: kcntt@huit.edu.vn
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

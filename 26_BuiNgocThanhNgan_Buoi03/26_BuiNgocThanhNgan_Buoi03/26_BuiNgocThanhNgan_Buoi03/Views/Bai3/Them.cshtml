@@ -1,0 +1,28 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi03.Models
+
+@{
+    ViewBag.Title = "Them";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    SanPham p = ViewBag.SanPham as SanPham;
+}
+
+<h2>Thêm</h2>
+
+<div class="container">
+    <h3 class="text-danger fw-bold" >Thông tin sản phẩm bạn vừa thêm: </h3>
+    <table class="table ">
+        <tr>
+            <td>Mã sản phẩm</td>
+            <td>@p.MaSP</td>
+        </tr>
+        <tr>
+            <td>Tên sản phẩm</td>
+            <td>@p.TenSP</td>
+        </tr>
+        <tr>
+            <td>Giá bán của sản phẩm</td>
+            <td>@p.Giaban</td>
+        </tr>
+    </table>
+</div>
+

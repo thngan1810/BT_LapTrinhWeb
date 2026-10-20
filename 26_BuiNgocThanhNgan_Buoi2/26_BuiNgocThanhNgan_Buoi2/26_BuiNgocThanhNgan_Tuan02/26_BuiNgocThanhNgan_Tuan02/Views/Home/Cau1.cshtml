@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Cau1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cau1</h2>
+@{ 
+    if(ViewBag.dulieu!=null)
+    {
+        foreach(var item in ViewBag.dulieu)
+                {
+                    @item <br/>
+                }
+    }
+}
+

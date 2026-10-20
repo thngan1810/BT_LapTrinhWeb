@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="/Home/Index">Trang Chủ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Home/SV/2001240289">Mã SV</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/Home/About">Liên hệ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="/Home/Index3/?ma=2001240289&ten=thanh ngan">TÊN</a>
+        </li>
+    </ul>
+
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

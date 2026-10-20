@@ -1,0 +1,31 @@
+﻿@using _26_BuiNgocThanhNgan_Tuan02_Bai02.Models;
+@model Sach
+@{
+    ViewBag.Title = "ChonMua";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CHI TIẾT</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <img src="~/Content/hinhanh/@Model.AnhBia" alt="@Model.Tensach" style="width: 100%;" />
+        </div>
+        <div class="col-7">
+            <p>Tác giả: <span style="color: blue;">@Model.Tacgia</span></p>
+            <h2>@Model.Tensach</h2>
+            <h2 style="color: #333; font-weight: bold;">@Model.Gia.ToString("N0") đ</h2>
+
+            <button style="background-color: #0056b3; color: white; border: none; padding: 10px 20px; margin-top: 15px; cursor: pointer;">
+                Xem Sản Phẩm Tương Tự
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h4 style="color: #666;">Mô tả sản phẩm</h4>
+            <p>@Model.Motasp</p>
+        </div>
+    </div>
+</div>

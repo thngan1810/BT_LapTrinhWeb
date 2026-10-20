@@ -1,0 +1,16 @@
+﻿
+@using _26_BuiNgocThanhNgan_Buoi09.Models;
+@model List<NhaXuatBan>
+
+
+<ul class="nav flex-column">
+    @foreach (var n in @Model)
+    {
+        <li class="nav-item" style="border-bottom:1px solid #ddd">
+            <a class="nav-link" href="/Bai1/HTSachTheoNXB/?mnxb=@n.MaNXB">
+                @n.TenNXB
+            </a>
+        </li>
+    }
+</ul>
+

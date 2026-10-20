@@ -1,0 +1,11 @@
+<aside class="col-md-2 right">
+    <div class="sale">GIẢM GIÁ ĐẾN 30%<br/>CHO LAPTOP<br/>WORKSTATION</div>
+    <h3>TIN TỨC MỚI</h3>
+    @foreach (var tin in ViewBag.TinTuc)
+    {
+        <div class="news">
+            <div class="news-img"></div>
+            <a href="#">@tin.TieuDe</a>
+        </div>
+    }
+</aside>

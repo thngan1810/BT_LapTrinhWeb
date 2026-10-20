@@ -1,0 +1,28 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models;
+@model List<SanPham>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutBai1.cshtml";
+}
+
+<h2></h2>
+<div class="container p-2">
+    <div class="row">
+        @foreach (SanPham s in Model)
+        {
+            <div class="col-md-3 col-sm-5 m-2">
+                <div class=" card border-primary text-md-center">
+                    <div class="card-header bg-danger text-start">
+                        @s.TenSP
+                    </div>
+                    <div class="card-body">
+                        <img src="~/Content/Images/@s.Hinh" class="w-100" style="height:150px" />
+                        <p class="card-text">Gia: <span class="text-warning">@s.Gia</span></p>
+                        <a href="/Bai1/XemChiTiet/?msp=@s.MaSP">Chi tiet </a>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </div>
+</div>

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Cau2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DANH SÁCH TRÁI CÂY</h2>
+@{
+    if (ViewBag.dulieu != null)
+    {
+        foreach (var item in ViewBag.dulieu)
+        {
+            <ul>
+                <li> @item  </li>
+            </ul>
+        }
+    }
+}

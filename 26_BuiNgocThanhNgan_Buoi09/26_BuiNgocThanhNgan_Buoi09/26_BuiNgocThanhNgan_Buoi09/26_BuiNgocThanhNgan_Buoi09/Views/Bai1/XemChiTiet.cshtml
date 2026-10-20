@@ -1,0 +1,120 @@
+﻿@model _26_BuiNgocThanhNgan_Buoi09.Models.Sach
+@using _26_BuiNgocThanhNgan_Buoi09.Models;
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    List<ThamGia> dsthamgia = ViewBag.dsthamgia as List<ThamGia>;
+    List<Sach> ds1 = ViewBag.ds1 as List<Sach>;
+    List<Sach> ds2 = ViewBag.ds2 as List<Sach>;
+}
+
+<h2>XemChiTiet</h2>
+
+<div class="container">
+    <h4>Sach</h4>
+    <hr />
+    <div class="row">
+        <div class="col-5">
+            <img src="~/Content/HinhAnhSP/@Model.AnhBia" />
+        </div>
+        <div class="col-7">
+            <dl class="dl-horizontal">
+
+                <dd class="text-danger fw-bold">
+                    Tên sách:
+                    @Html.DisplayFor(model => model.TenSach)
+                </dd>
+                <dt class="fw-bold">
+                    Mô tả
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.MoTa)
+                </dd>
+                <dt>
+                    Giá bán:
+                </dt>
+
+                <dd class="text-danger">
+                    @Html.DisplayFor(model => model.GiaBan) VNĐ
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaChuDe)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ChuDe.TenChuDe)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaNXB)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NhaXuatBan.TenNXB)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Moi)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Moi)
+                </dd>
+
+
+            </dl>
+            <div>
+                <p> Các tác giả: </p>
+                <ul>
+                    @foreach (ThamGia tg in dsthamgia)
+                    {
+                        <li>
+                            @tg.TacGia.TenTacGia  ---  @tg.VaiTro
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="me-auto">
+                <button type="submit" class="btn btn-danger fw-bold text-white">Đặt mua</button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <h4 class="bg-primary fw-bold">Các sản phẩm cùng chủ đề</h4>
+        @foreach (var s in ds1)
+        {
+            <div class="card" style="width: 10rem;">
+                <a href="/Bai1/XemChiTiet/?msp=@s.MaSach">
+                    <img class="card-img-top" src="~/Content/HinhAnhSP/@s.AnhBia" alt="Card image cap">
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">@s.TenSach</h5>
+
+                </div>
+            </div>
+        }
+    </div>
+    <div class="row">
+        <h4 class="bg-primary fw-bold">Các sản phẩm cùng nhà xuất bản</h4>
+        @foreach (var s in ds2)
+        {
+            <div class="card" style="width: 10rem;">
+                <a href="/Bai1/XemChiTiet/?msp=@s.MaSach">
+                    <img class="card-img-top" src="~/Content/HinhAnhSP/@s.AnhBia" alt="Card image cap">
+                </a>
+
+                <div class="card-body">
+                    <h5 class="card-title">@s.TenSach</h5>
+
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,49 @@
+@model LaptopStore.Models.SanPham
+@{
+    ViewBag.Title = Model.TenSanPham;
+}
+<div class="row">
+    <aside class="col-md-2 sidebar">
+        <h3>DANH MỤC</h3>
+        @foreach (var dm in ViewBag.DanhMuc)
+        {
+            <a href="@Url.Action("Index","SanPham", new { maDanhMuc = dm.MaDanhMuc })">@dm.TenDanhMuc</a>
+        }
+    </aside>
+
+    <section class="col-md-8 content">
+        <div class="title">@Model.TenSanPham</div>
+        <div class="detail">
+            <div class="detail-left">
+                <img class="main-image" src="@Url.Content("~/Images/" + Model.HinhAnh)" onerror="this.src='@Url.Content("~/Images/no-image.jpg")'" />
+                <p><b>Tình trạng:</b> @Model.TinhTrang</p>
+                <div class="price">@(Model.Gia.HasValue ? Model.Gia.Value.ToString("#,##0") + " VNĐ" : "Liên hệ")</div>
+
+                @if (Model.DungLuongs != null && Model.DungLuongs.Count > 0)
+                {
+                    <div class="options">
+                        <b>Lựa chọn RAM + HDD</b>
+                        @foreach (var dl in Model.DungLuongs)
+                        {
+                            <label><input type="radio" name="dungluong" /> @dl.TenDungLuong</label>
+                        }
+                    </div>
+                }
+                <button class="buy">MUA NGAY</button>
+            </div>
+
+            <div class="detail-right">
+                <h3>MÔ TẢ SẢN PHẨM</h3>
+                <p class="description">@Model.MoTa</p>
+
+                <h3>CẤU HÌNH SẢN PHẨM</h3>
+                <div class="config">@Html.Raw((Model.CauHinh ?? "").Replace("\n","<br/>"))</div>
+
+                <h3>ƯU ĐIỂM NỔI BẬT</h3>
+                <div class="config">@Html.Raw((Model.UuDiem ?? "").Replace("\n","<br/>"))</div>
+            </div>
+        </div>
+    </section>
+
+    @Html.Partial("_RightColumn")
+</div>

@@ -1,0 +1,39 @@
+﻿@using _26_BuiNgocThanhNgan_Tuan02.Models;
+@{
+    ViewBag.Title = "Cau3";
+Layout = "~/Views/Shared/_Layout.cshtml";
+    Employee e = ViewData["em"] as Employee;
+}
+
+<h2>Cau 3</h2>
+<div class="container">
+    
+    <table class="table">
+        <tr>
+            <td colspan="2" class="fw-bold text-white bg-primary text-center">THÔNG TIN NHÂN VIÊN</td>
+        </tr>
+        <tr>
+            <td>Mã Nhân Viên</td>
+            <td>@e.manv</td>
+        </tr>
+        <tr>
+            <td>Tên Nhân Viên</td>
+            <td>@e.tennv</td>
+        </tr>
+        <tr>
+            <td> Giới Tính</td>
+            <td>@e.gioitinh</td>
+        </tr>
+        <tr>
+            <td>Hình thẻ</td>
+            <td><img src="~/Content/hinhanh/@e.anhthe" /></td>
+        </tr>
+        <tr>
+            <td>Lương tháng</td>
+            <td>
+                @e.luong
+            </td>
+        </tr>
+    </table>
+</div>
+

@@ -1,0 +1,11 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models;
+@model List<Loai>
+<ul class="nav flex-column">
+    @foreach (Loai l in Model)
+    {
+        <li class="nav-item">
+            <a class="nav-link" href="/Bai1/HTSP/?ml=@l.MaLoai">@l.TenLoai</a>
+        </li>
+    }
+</ul>
+

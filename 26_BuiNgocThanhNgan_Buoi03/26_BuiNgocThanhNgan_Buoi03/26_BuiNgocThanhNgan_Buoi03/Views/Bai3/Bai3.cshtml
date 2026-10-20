@@ -1,0 +1,44 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi03.Models;
+@model _26_BuiNgocThanhNgan_Buoi03.Models.SanPham
+@{
+    ViewBag.Title = "Bai3";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+
+}
+
+<h2>Bài 3</h2>
+<div class="container p-2">
+    <form action="/Bai3/Them" method="post">
+        <div class="row p-2">
+            <div class="col-5">
+                <label class="form-label">Mã sản phẩm </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" type="text" name="MaSP" placeholder="nhập mã sp" />
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-5">
+                <label class="form-label">Tên sp </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" type="text" name="TenSP" placeholder="tên sp" />
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-5">
+                <label class="form-label">giá bán sp </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" type="number" name="Giaban" placeholder="giá bán của sp" />
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-12">
+                <button class="btn btn-outline-danger w-75" type="submit">Thêm</button>
+            </div>
+        </div>
+    </form>
+</div>
+

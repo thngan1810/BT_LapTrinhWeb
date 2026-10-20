@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_buingocthanhngan_tuan02_bai02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|solutionrelative:26_buingocthanhngan_tuan02_bai02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_buingocthanhngan_tuan02_bai02\\views\\home\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|solutionrelative:26_buingocthanhngan_tuan02_bai02\\views\\home\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_buingocthanhngan_tuan02_bai02\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|solutionrelative:26_buingocthanhngan_tuan02_bai02\\models\\sach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|d:\\bt_laptrinhweb\\26_buingocthanhngan_buoi2\\26_buingocthanhngan_buoi2\\26_buingocthanhngan_tuan02\\26_buingocthanhngan_tuan02_bai02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|solutionrelative:26_buingocthanhngan_tuan02_bai02\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|d:\\bt_laptrinhweb\\26_buingocthanhngan_buoi2\\26_buingocthanhngan_buoi2\\26_buingocthanhngan_tuan02\\26_buingocthanhngan_tuan02_bai02\\views\\home\\chonmua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B2774C0-C60A-4A44-A6BD-192B9FE62DF1}|26_BuiNgocThanhNgan_Tuan02_Bai02\\26_BuiNgocThanhNgan_Tuan02_Bai02.csproj|solutionrelative:26_buingocthanhngan_tuan02_bai02\\views\\home\\chonmua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sach.cs",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Models\\Sach.cs",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Models\\Sach.cs",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Models\\Sach.cs",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Models\\Sach.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T03:04:59.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T03:04:18.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-25T10:44:32.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChonMua.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\ChonMua.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\ChonMua.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\ChonMua.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\ChonMua.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T04:03:57.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SACH.cshtml",
+              "DocumentMoniker": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\SACH.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\SACH.cshtml",
+              "ToolTip": "D:\\BT_LapTrinhWeb\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Buoi2\\26_BuiNgocThanhNgan_Tuan02\\26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\SACH.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Tuan02_Bai02\\Views\\Home\\SACH.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-19T03:17:54.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

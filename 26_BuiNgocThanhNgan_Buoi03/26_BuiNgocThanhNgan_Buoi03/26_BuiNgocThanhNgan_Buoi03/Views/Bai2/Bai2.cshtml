@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Bai2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bai2</h2>
+<div class="container p-2">
+    <form method="post" action="/Bai2/Login">
+        <div class="row p-2">
+            <div class="col-5">
+                <label class="form-label">Tên đăng nhập </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" type="text" name="username" placeholder="Tên đăng nhập" />
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-5">
+                <label class="form-label">Mật khẩu </label>
+            </div>
+            <div class="col-7">
+                <input class="form-control" type="password" name="password" placeholder="Mật khẩu" />
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-12">
+                <button class="btn btn-outline-danger w-75" type="submit">Đăng nhập</button>
+            </div>
+        </div>
+        
+    </form>
+</div>

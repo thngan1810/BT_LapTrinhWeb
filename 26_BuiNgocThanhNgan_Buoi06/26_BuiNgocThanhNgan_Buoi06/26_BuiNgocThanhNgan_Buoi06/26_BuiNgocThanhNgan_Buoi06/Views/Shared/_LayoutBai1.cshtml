@@ -1,0 +1,52 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Bai1/Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Thông tin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Diễn đàn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Lien he</a>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                @Html.Action("Menu")
+            </div>
+            <div class="col-9">
+                <div class="text-end">
+                    <a class="btn btn-danger text-white fw-bold" href="#">ĐĂNG KÝ</a>
+                    <a class="btn btn-warning text-white fw-bold" href="/Bai1/DangNhap">ĐĂNG NHẬP</a>
+                    @if (Session["k"] != null)
+                    {
+                        KhachHang khach = Session["k"] as KhachHang;
+                        <p> Chào bạn, @khach.TenKH </p>
+                        <p> SDT liên lạc là: @khach.SDT </p>
+                    }
+
+                </div>
+                <div>
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+@model IEnumerable<LaptopStore.Models.SanPham>
+@{
+    ViewBag.Title = "Trang chủ";
+}
+<div class="row">
+    <aside class="col-md-2 sidebar">
+        <h3>DANH MỤC</h3>
+        @foreach (var dm in ViewBag.DanhMuc)
+        {
+            <a href="@Url.Action("Index","SanPham", new { maDanhMuc = dm.MaDanhMuc })">@dm.TenDanhMuc</a>
+        }
+    </aside>
+
+    <section class="col-md-8 content">
+        <div class="title">THÔNG TIN SINH VIÊN</div>
+        <p><b>Thông tin SV:</b></p>
+        <p>Mã số: @ViewBag.MaSo</p>
+        <p>Họ tên: @ViewBag.HoTen</p>
+        <p>Sở thích:</p>
+        <ol>
+            @foreach (var st in ViewBag.SoThich)
+            {
+                <li>@st</li>
+            }
+        </ol>
+
+        <div class="title">LAPTOP MỚI CẬP NHẬT</div>
+        <div class="product-grid">
+            @foreach (var sp in Model)
+            {
+                <div class="product-card">
+                    <a href="@Url.Action("Details","SanPham", new { id = sp.MaSanPham })">
+                        <img src="@Url.Content("~/Images/" + sp.HinhAnh)" onerror="this.src='@Url.Content("~/Images/no-image.jpg")'" />
+                    </a>
+                    <b>@sp.TenSanPham</b>
+                    <span>@sp.CauHinh</span>
+                    <strong>@(sp.Gia.HasValue ? sp.Gia.Value.ToString("#,##0") + " VNĐ" : "Liên hệ")</strong>
+                    <a class="btn-green" href="@Url.Action("Details","SanPham", new { id = sp.MaSanPham })">Xem chi tiết</a>
+                </div>
+            }
+        </div>
+    </section>
+
+    @Html.Partial("_RightColumn")
+</div>

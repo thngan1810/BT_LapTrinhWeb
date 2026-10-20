@@ -1,0 +1,46 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models;
+@model List<Tour>
+@{
+    ViewBag.Title = "Danh sách tour";
+    Layout = "~/Views/Shared/_LayoutBai1.cshtml";
+}
+
+<div class="mb-3 p-3 bg-light border rounded">
+    <h4 class="text-primary mb-2">Thông tin sinh viên</h4>
+    <div>Mã số: <strong>@ViewBag.MaSoSV</strong></div>
+    <div>Họ tên: <strong>@ViewBag.HoTenSV</strong></div>
+    <div>Sở thích:
+        @foreach (string s in ViewBag.SoThich)
+        {
+            <span class="badge bg-secondary me-1">@s</span>
+        }
+    </div>
+</div>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <h3 class="text-danger mb-0">@(!string.IsNullOrWhiteSpace(ViewBag.TenDanhMuc) ? ViewBag.TenDanhMuc : "TẤT CẢ TOUR DU LỊCH")</h3>
+        @if (!string.IsNullOrWhiteSpace(ViewBag.TuKhoa as string))
+        {
+            <small class="text-muted">Kết quả tìm kiếm: <strong>@ViewBag.TuKhoa</strong></small>
+        }
+    </div>
+    <span class="badge bg-primary">@Model.Count tour</span>
+</div>
+
+<div class="row">
+    @foreach (Tour t in Model)
+    {
+        <div class="col-md-4 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <img src="~/Content/Images/@t.Hinh" class="card-img-top" style="height:190px; object-fit:cover" alt="@t.TenTour" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title text-primary">@t.TenTour</h5>
+                    <p class="mb-1"><strong>Khởi hành:</strong> @t.NoiKhoiHanh</p>
+                    <p class="mb-3"><strong>Giá:</strong> <span class="text-danger fw-bold">@t.GiaTour.ToString("N0") VNĐ</span></p>
+                    <a class="btn btn-primary mt-auto" href="@Url.Action("XemChiTiet", "Bai1", new { maTour = t.MaTour })">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

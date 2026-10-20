@@ -1,0 +1,59 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Quản lý Tour du lịch</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container py-3">
+        <div class="row align-items-center border-bottom mb-3 pb-2">
+            <div class="col-md-4">
+                <a class="text-decoration-none" href="@Url.Action("Index", "Bai1")">
+                    <h2 class="text-primary mb-0">TOUR DU LỊCH</h2>
+                </a>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Bai1")">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="@Url.Action("Index", "Bai1")">Danh mục Tour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Thông tin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                @Html.Action("Menu", "Bai1")
+            </div>
+
+            <div class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <form action="@Url.Action("Index", "Bai1")" method="get" class="d-flex w-75">
+                        <input type="text" class="form-control me-2" name="tenTour" value="@ViewBag.TuKhoa" placeholder="Nhập tên tour cần tìm..." />
+                        <button type="submit" class="btn btn-primary">Tìm</button>
+                    </form>
+                    <a class="btn btn-warning text-white fw-bold ms-2" href="@Url.Action("DangNhap", "Bai1")">ĐĂNG NHẬP</a>
+                </div>
+
+                @if (Session["k"] != null)
+                {
+                    KhachHang khach = Session["k"] as KhachHang;
+                    <div class="alert alert-success py-2">
+                        Chào bạn, <strong>@khach.TenKH</strong> - @khach.SoDT
+                    </div>
+                }
+
+                @RenderBody()
+            </div>
+        </div>
+
+        <hr />
+        <footer class="text-center text-muted">&copy; @DateTime.Now.Year - Quản lý Tour du lịch</footer>
+    </div>
+</body>
+</html>

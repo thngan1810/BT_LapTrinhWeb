@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - LAPTOP MỸ</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/style.css" />
+</head>
+<body>
+    <div class="container page">
+        <header class="top">
+            <div class="brand">
+                <div class="logo">LAPTOP MỸ</div>
+                <small>Laptop Chính Hãng - Giá Tốt</small>
+            </div>
+            <form class="search" action="@Url.Action("Index","SanPham")" method="get">
+                <input type="text" name="q" value="@ViewBag.TuKhoa" placeholder="Nhập tên laptop" />
+                <button type="submit">Tìm kiếm</button>
+            </form>
+            <div class="hotline">Hotline<br/><b>0909 999 999</b></div>
+        </header>
+
+        <nav class="menu">
+            <a href="@Url.Action("Index","Home")">TRANG CHỦ</a>
+            <a href="@Url.Action("Index","SanPham")">SHOP</a>
+            <a href="#">VỀ LAPTOP BUSINESS</a>
+            <a href="#">THU ĐỔI LAPTOP</a>
+            <a href="#">TIN TỨC</a>
+            <a href="#">LIÊN HỆ</a>
+        </nav>
+
+        <main>
+            @RenderBody()
+        </main>
+
+        <footer>© 2026 Laptop Mỹ | Laptop xách tay chính hãng</footer>
+    </div>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

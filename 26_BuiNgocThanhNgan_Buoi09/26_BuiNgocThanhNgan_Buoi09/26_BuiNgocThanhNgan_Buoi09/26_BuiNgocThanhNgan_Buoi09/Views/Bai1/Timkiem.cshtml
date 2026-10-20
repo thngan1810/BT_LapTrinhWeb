@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Timkiem";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<h2>Timkiem</h2>
+
+<form action="/" method="post">
+    <div>
+        Tên  Sản  Phẩm <br />
+                       <input type="text" name="txtTuKhoa" class="form-control"  placeholder="nhập từ khóa"/>
+    </div>
+    <div>
+        Chọn chủ đề: <br />
+        @Html.DropDownList("MaChuDe")
+    </div>
+    <div>
+        Giá: <br />
+        <input type="checkbox" name="ck1" value="1" /> 0-10.000VNĐ <br />
+        <input type="checkbox" name="ck2" value="2" /> 11.000-20.000VNĐ <br />
+        <input type="checkbox" name="ck3" value="3" /> 21.000-40.000VNĐ<br />
+        <input type="checkbox" name="ck4" value="4" /> Lớn hơn 40.000VNĐ
+
+    </div>
+    <div>
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </div>
+</form>

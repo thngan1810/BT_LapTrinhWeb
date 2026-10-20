@@ -1,0 +1,27 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models;
+@model SanPham
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_LayoutBai1.cshtml";
+}
+
+<h2>XemChiTiet</h2>
+<div class="container">
+    <table class="table table-bordered">
+        <tr class="text-white bg-primary fw-bold">
+            <td>Mã sản phẩm</td>
+            <td>Tên Sản Phẩm</td>
+            <td>Giá</td>
+            <td>Giới thiệu sách</td>
+        </tr>
+        <tr>
+            <td>@Model.MaSP</td>
+            <td>@Model.TenSP</td>
+            <td>@Model.Gia</td>
+            <td>
+                <p>@Model.GhiChu </p>
+                <img src="~/Content/Images/@Model.Hinh" />
+            </td>
+        </tr>
+    </table>
+</div>

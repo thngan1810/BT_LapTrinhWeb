@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|d:\\26_buingocthanhngan_buoi06\\26_buingocthanhngan_buoi06\\26_buingocthanhngan_buoi06\\26_buingocthanhngan_buoi06\\views\\bai1\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\views\\bai1\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\controllers\\bai1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\controllers\\bai1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\views\\shared\\_layoutbai1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\views\\shared\\_layoutbai1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\views\\bai1\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\views\\bai1\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\views\\bai1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\views\\bai1\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_buingocthanhngan_buoi06\\views\\bai1\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AC705CC-DAB0-4CB3-9CF0-E0889B96FCEF}|26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06.csproj|solutionrelative:26_buingocthanhngan_buoi06\\views\\bai1\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Index.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Index.cshtml",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Index.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:13:51.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Menu.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Menu.cshtml",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Menu.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\Menu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:24:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XemChiTiet.cshtml",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\XemChiTiet.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\XemChiTiet.cshtml",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\XemChiTiet.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\XemChiTiet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T03:04:40.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutBai1.cshtml",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Shared\\_LayoutBai1.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Views\\Shared\\_LayoutBai1.cshtml",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Shared\\_LayoutBai1.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Views\\Shared\\_LayoutBai1.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T02:38:18.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\DangNhap.cshtml",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\DangNhap.cshtml",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Views\\Bai1\\DangNhap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-23T03:30:09.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Models\\SanPham.cs",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Models\\SanPham.cs",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Models\\SanPham.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T04:01:16.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bai1Controller.cs",
+              "DocumentMoniker": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Controllers\\Bai1Controller.cs",
+              "RelativeDocumentMoniker": "26_BuiNgocThanhNgan_Buoi06\\Controllers\\Bai1Controller.cs",
+              "ToolTip": "D:\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\26_BuiNgocThanhNgan_Buoi06\\Controllers\\Bai1Controller.cs",
+              "RelativeToolTip": "26_BuiNgocThanhNgan_Buoi06\\Controllers\\Bai1Controller.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvywAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T02:06:36.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

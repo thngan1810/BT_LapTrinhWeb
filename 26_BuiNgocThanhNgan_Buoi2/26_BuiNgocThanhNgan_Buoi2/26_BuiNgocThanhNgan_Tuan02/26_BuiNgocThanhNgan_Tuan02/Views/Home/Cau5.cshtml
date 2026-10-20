@@ -1,0 +1,21 @@
+﻿@using _26_BuiNgocThanhNgan_Tuan02.Models;
+@model  List<PhongBan>
+@{
+    ViewBag.Title = "Cau5";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Câu 5</h2>
+<h3 style="color:mediumpurple;background-color:pink;">Danh sách các phòng ban     </h3>
+<ul>
+    @{ 
+        if(Model !=null)
+        {
+            foreach(PhongBan p in Model)
+                {
+                    <li>@p.Tenphong  ------ @p.Maphong   </li>
+                }
+        }
+    }
+</ul>
+

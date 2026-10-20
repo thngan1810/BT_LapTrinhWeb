@@ -1,0 +1,17 @@
+﻿@using _26_BuiNgocThanhNgan_Buoi06.Models;
+@model List<DanhMuc>
+
+<div class="border rounded p-2 bg-light">
+    <h5 class="text-danger border-bottom pb-2">DANH MỤC TOUR</h5>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="@Url.Action("Index", "Bai1")">Tất cả tour</a>
+        </li>
+        @foreach (DanhMuc dm in Model)
+        {
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("HTTour", "Bai1", new { maDM = dm.MaDanhMuc })">@dm.TenDanhMuc</a>
+            </li>
+        }
+    </ul>
+</div>
