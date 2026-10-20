@@ -1,4 +1,4 @@
-﻿
+﻿@model List<_26_BuiNgocThanhNgan_Buoi09.Models.Sach>
 @{
     ViewBag.Title = "Timkiem";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
@@ -6,10 +6,10 @@
 
 <h2>Timkiem</h2>
 
-<form action="/" method="post">
+<form action="/Bai1/TimKiem" method="post">
     <div>
         Tên  Sản  Phẩm <br />
-                       <input type="text" name="txtTuKhoa" class="form-control"  placeholder="nhập từ khóa"/>
+        <input type="text" name="txtTuKhoa" class="form-control" placeholder="nhập từ khóa" />
     </div>
     <div>
         Chọn chủ đề: <br />
@@ -27,3 +27,24 @@
         <button type="submit" class="btn btn-outline-primary">Search</button>
     </div>
 </form>
+<hr />
+@if (Model != null)
+{
+    <hr />
+    <h4>Kết quả: @Model.Count sách</h4>
+    <div class="row">
+        @foreach (var s in Model)
+        {
+            <div class="card text-center m-2" style="width:12rem;">
+                <a href="/Bai1/XemChiTiet/?msp=@s.MaSach">
+                    <img class="card-img-top mt-2" src="~/Content/HinhAnhSP/@s.AnhBia"
+                         style="height:200px; object-fit:contain;" />
+                </a>
+                <div class="card-body">
+                    <h6>@s.TenSach</h6>
+                    <p class="text-danger">@s.GiaBan VNĐ</p>
+                </div>
+            </div>
+        }
+    </div>
+}
